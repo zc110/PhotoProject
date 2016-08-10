@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="sixteen">16dp</dimen>
+    <dimen name="onethree">13dp</dimen>
+    <dimen name="photo_topmargin">40dp</dimen>
+    <dimen name="onefivefive">145dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="sixty">60dp</dimen>
+    <dimen name="twentyfive">25dp</dimen>
+  <dimen name="eleven">11dp</dimen>
+  <dimen name="one">10sp</dimen>
+  <dimen name="twelve">12sp</dimen>
+  <dimen name="ninesp">9sp</dimen>
+  <dimen name="twod">2dp</dimen>
+   <dimen name="threedp">3dp</dimen>
+  <dimen name="tweetyd">20dp</dimen>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/photomain_imageview"
+            android:layout_width="@dimen/sixteen"
+            android:layout_height="@dimen/sixteen"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/sixteen"
+            android:src="@drawable/photomain_one" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/personage"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sixteen" />
+
+        <ImageView
+            android:layout_width="@dimen/sixteen"
+            android:layout_height="@dimen/sixteen"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/sixteen"
+            android:src="@drawable/photomain_four" />
+    </RelativeLayout>
+    <!-- 划分 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fifty" >
+<!--头像  -->
+            <ImageView
+                android:id="@+id/imagview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/sixteen"
+                android:background="@drawable/circle"
+                android:src="@drawable/head" />
+            <!-- 等待戈多 -->
+
+            <TextView
+                android:id="@+id/geduo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/eleven"
+                android:layout_marginTop="@dimen/twentyfive"
+                android:layout_toRightOf="@id/imagview"
+                android:text="@string/waitingGeDuo"
+                android:textColor="@color/waiting"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="17sp"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/photomain_three" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sixty" >
+        </LinearLayout>
+<!--  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="vertical" >
+
+            <!-- 1张卡片 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4" >
+
+                <TextView
+                    android:id="@+id/textview_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/sixteen"
+                    android:text="@string/one"
+                    android:textColor="@color/background"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/textview_one"
+                    android:text="@string/card"
+                    android:textColor="@color/background"
+                    android:textSize="@dimen/twelve" />
+
+                <ImageView
+                    android:layout_width="@dimen/sixteen"
+                    android:layout_height="@dimen/sixteen"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/sixteen"
+                    android:src="@drawable/photomain_two" />
+            </RelativeLayout>
+            <!-- 权重等比占位 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5" >
+            </LinearLayout>
+        </LinearLayout>
+        <!--  -->
+    </LinearLayout>
+
+   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         android:background="@color/white"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/xiaoyuanfengjing" 
+                android:layout_marginBottom="50dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sixteen"
+                android:layout_marginTop="-65dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/head" />
+        </LinearLayout>
+
+</LinearLayout>

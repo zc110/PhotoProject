@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <ImageView
+             android:id="@+id/sequare_imageview"
+            android:layout_width="@dimen/sixteen"
+            android:layout_height="@dimen/sixteen"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/sixteen"
+            android:src="@drawable/photomain_one" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/sequere"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sixteen" />
+
+        <ImageView
+            android:layout_width="@dimen/sixteen"
+            android:layout_height="@dimen/sixteen"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/sixteen"
+            android:src="@drawable/photomain_two" />
+    </RelativeLayout>
+    <!-- 顶栏分界线 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- 黑竖线 -->
+
+            <ImageView
+                android:layout_width="@dimen/twod"
+                android:layout_height="26dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/rectangle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- 外边正方形 -->
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/quadrate" >
+
+                <!-- 内无边正方形 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="6dp"
+                    android:orientation="vertical" >
+
+                    <!-- JUL -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="JUL"
+                            android:textColor="@color/LEO"
+                            android:textSize="@dimen/ninesp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="+"
+                            android:textColor="@color/LEO"
+                            android:textSize="@dimen/ninesp" />
+                    </RelativeLayout>
+                    <!-- 03 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/threedp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="03"
+                            android:textColor="@color/LEO"
+                            android:textSize="@dimen/ninesp" />
+                    </LinearLayout>
+                    <!-- 2016 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/threedp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2016"
+                            android:textColor="@color/LEO"
+                            android:textSize="@dimen/ninesp" />
+                    </LinearLayout>
+                    <!-- z摘下怀念 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/threedp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="摘下怀念"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/ninesp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/threedp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="记下美好"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/ninesp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp" >
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 分割线 -->
+    <!-- 风景 低栏 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <!-- 1 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/xiaoyuanfengjing" 
+                android:layout_marginBottom="30dp"/>
+
+            <ImageView
+                android:id="@+id/imageView_sequare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sixteen"
+                android:layout_marginTop="-45dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/head" />
+        </LinearLayout>
+
+        <!-- 1 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sixteen"
+                    android:text="@string/Leo"
+                    android:textColor="@color/LEO"
+                    android:textSize="@dimen/ninesp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/sixteen"
+                    android:text="@string/twoDay"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/ninesp" />
+            </RelativeLayout>
+            <!-- 那年夏天 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sixteen"
+                    android:text="@string/nanianxiatian"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/ninesp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sixteen"
+                    android:text="@string/lastime"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/ninesp" />
+
+                <ImageView
+                    android:id="@+id/sequare_rightarrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/sixteen"
+                    android:src="@drawable/sequare_one" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sixteen"
+                    android:text="@string/future"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/ninesp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

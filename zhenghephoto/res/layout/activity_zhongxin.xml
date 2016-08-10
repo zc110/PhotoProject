@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="fill_parent"
+    android:background="@color/heise"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableTop="@drawable/touxiang"
+        android:gravity="center"
+        android:text="等待戈多" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview_geren"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/noren"
+            android:padding="15dp"
+            android:text="     个人TIMELINE" />
+
+        <TextView
+            android:id="@+id/textview_guangchang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/noguang"
+            android:padding="15dp"
+            android:text="     广场EXPLORE" />
+
+        <TextView
+            android:id="@+id/textview_guanzhu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/nozhu"
+            android:padding="15dp"
+            android:text="     关注FEED" />
+
+        <TextView
+            android:id="@+id/textview_shezhi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/noshe"
+            android:padding="15dp"
+            android:text="     设置SETTING" />
+    </LinearLayout>
+
+</LinearLayout>

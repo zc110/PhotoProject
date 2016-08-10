@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="card_text">   "            那年夏天，我们\n最后一次走过校园的林荫大道， \n走向野心勃勃欲不可预知的未来 "   </string>
+    <string name="card_name">Leo</string>
+    <string name="card_now_time">2天前</string>
+    <string name="card_past_time">JUL01\n2016</string>
+    <string name="card_by">by:</string>
+    <string name="attention_attention">关注</string>
+    <string name="leo_name">Leo</string>
+    <string name="leo_autograph">错过就是错过</string>
+    <string name="leo_text">"            那年夏天，我们\n最后一次走过校园的林荫大道， \n走向野心勃勃欲不可预知的未来 "  </string>
+    <string name="leo_card">21张卡片</string>
+    <string name="leo_time">2天前</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="simplejianxing">SIMPLE简性</string>
+    <string name="huafanweijian">化繁为简就是升华</string>
+    <string name="denglu">登录</string>
+    <string name="zhuce">注册</string>
+    <string name="yonghuxieyi">用户协议</string>
+    <string name="qita">其他登录方式</string>
+    <string name="shoujidenglu">手机登录</string>
+    <string name="quhao">+86</string>
+    <string name="shoujihaoma">手机号码</string>
+    <string name="yanzhengma">验证码</string>
+    <string name="mimadenglu">密码登录</string>
+    <string name="youxiangdenglu">邮箱登录</string>
+    <string name="wangjimima">忘记密码</string>
+    <string name="shurumima">输入密码</string>
+    <string name="shezhi">设置</string>
+    <string name="zhanghao">账号设置</string>
+    <string name="xiaoxi">消息通知</string>
+    <string name="baocun">自动保存卡片到相册</string>
+    <string name="gongkai">默认公开相册</string>
+    <string name="fankui">用户反馈</string>
+    <string name="jianxing">关于简性</string>
+    <string name="xieyi">用户协议</string>
+    <string name="huancun">清除缓存</string>
+    <string name="tuichu">退出登录</string>
+    <string name="moban">选模板</string>
+    <string name="geren">个人</string>
+    <string name="app_name">Photo</string>
+    <string name="photo_one">photomain_one</string>
+    <string name="photo_two">photomain_two</string>
+    <string name="photo_three">photomain_three</string>
+    <string name="sequare_one">sequare_one</string>
+    <string name="sequare_two">sequare_two</string>
+    <string name="personage">个人</string>
+    <string name="waitingGeDuo">等待戈多</string>
+    <string name="one">1</string>
+    <string name="card">张卡片</string>
+    <string name="sequere">广场</string>
+    <string name="Leo">Leo</string>
+    <string name="twoDay">2天前</string>
+    <string name="nanianxiatian">那年夏天，我们</string>
+    <string name="lastime">最后一次走过校园的林荫大道</string>
+    <string name="future">走向野心勃勃不可预知的未来</string>
+
+</resources>

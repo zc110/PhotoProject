@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/sequaretwo_imageview"
+            android:layout_width="@dimen/sixteen"
+            android:layout_height="@dimen/sixteen"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/sixteen"
+            android:src="@drawable/photomain_one" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/sequere"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sixteen" />
+
+        <ImageView
+            android:layout_width="@dimen/sixteen"
+            android:layout_height="@dimen/sixteen"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/sixteen"
+            android:src="@drawable/photomain_two" />
+    </RelativeLayout>
+    <!-- 顶栏分界线 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- 黑竖线 -->
+
+            <ImageView
+                android:layout_width="@dimen/twod"
+                android:layout_height="26dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/rectangle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- 外边正方形 -->
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/quadrate" >
+
+                <!-- 内无边正方形 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="6dp"
+                    android:orientation="vertical" >
+
+                    <!-- JUL -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="JUL"
+                            android:textColor="@color/LEO"
+                            android:textSize="@dimen/ninesp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="+"
+                            android:textColor="@color/LEO"
+                            android:textSize="@dimen/ninesp" />
+                    </RelativeLayout>
+                    <!-- 03 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/threedp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="03"
+                            android:textColor="@color/LEO"
+                            android:textSize="@dimen/ninesp" />
+                    </LinearLayout>
+                    <!-- 2016 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/threedp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2016"
+                            android:textColor="@color/LEO"
+                            android:textSize="@dimen/ninesp" />
+                    </LinearLayout>
+                    <!-- z摘下怀念 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/threedp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="摘下怀念"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/ninesp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/threedp" ><TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="记下美好"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/ninesp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp" >
+        </RelativeLayout>
+<!-- 图片浏览 -->
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+  <!-- 以下是gridview -->
+            <GridView
+                android:id="@+id/gridview_SequareTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:horizontalSpacing="2dp"
+                android:numColumns="2"
+                android:verticalSpacing="1dp" />
+           
+        </LinearLayout>
+
+    </LinearLayout>
+  
+
+</LinearLayout>
