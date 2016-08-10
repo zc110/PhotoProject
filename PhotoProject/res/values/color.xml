@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+   
+    
+    <color name="card_text">#b5b5b5</color>
+    <color name="card_time">#b5b5b5</color>
+    <color name="card_name">#000000</color>
+    <color name="card_background">#cfcfcf</color>
+    <color name="card_layout">#ffffff</color>
+     <color name="leo_view">#efefef</color>
+    <color name="attention_color">#000000</color>
+        <color name="leo_check_color">#000000</color>
+</resources>

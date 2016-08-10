@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/zhu_ce"
+       android:gravity="center"
+      android:layout_margin="10dp"
+      android:textSize="20sp"
+       />
+   
+   
+   <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/edittext_yong_hu_shu_ru"
+        android:hint="@string/yong_hu_ming"
+      
+        />
+    
+   
+    
+  
+    <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/edittext_mi_ma_shu_ru"
+        android:hint="@string/mi_ma"
+        />
+    
+  
+
+   <LinearLayout
+       android:layout_width="match_parent"
+     
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+
+   <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/ti_jiao"
+    android:id="@+id/button_ti_jiao"
+    />
+
+
+
+</LinearLayout>
+    
+    
+    
+    
+</LinearLayout>

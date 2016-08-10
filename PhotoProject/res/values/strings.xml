@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="card_text">   "            那年夏天，我们\n最后一次走过校园的林荫大道， \n走向野心勃勃欲不可预知的未来 "   </string>
+    <string name="card_name">Leo</string>
+    <string name="card_now_time">2天前</string>
+    <string name="card_past_time">JUL01\n2016</string>
+    <string name="card_by">by:</string>
+    <string name="attention_attention">关注</string>
+    <string name="leo_name">Leo</string>
+    <string name="leo_autograph">错过就是错过</string>
+    <string name="leo_text">"            那年夏天，我们\n最后一次走过校园的林荫大道， \n走向野心勃勃欲不可预知的未来 "  </string>
+   <string name="leo_card">21张卡片</string>
+  <string name="leo_time">2天前</string>
+</resources> 
