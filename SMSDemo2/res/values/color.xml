@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="card_text">#b5b5b5</color>
+    <color name="card_time">#b5b5b5</color>
+    <color name="card_name">#000000</color>
+    <color name="card_background">#cfcfcf</color>
+    <color name="card_layout">#ffffff</color>
+    <color name="leo_view">#efefef</color>
+    <color name="attention_color">#000000</color>
+    <color name="leo_check_color">#000000</color>
+    <color name="lanse">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0084FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="shenlv">#428484</color>
+    <color name="red">#FF0424</color>
+    <color name="zise">#FD04F2</color>
+    <color name="huise">#C6C6C6</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="baise">#ffffff</color>
+    <color name="heise">#000000</color>
+    <color name="hongse">#FF0000</color>
+    <color name="LEO">#343434</color>
+    <color name="background">#cccccc</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="waiting">#333333</color>
+    <color name="black">#000000</color>
+    <color name="clear_huan_cun">#dcdcdc</color>
+
+</resources>

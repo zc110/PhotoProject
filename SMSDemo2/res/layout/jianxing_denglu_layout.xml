@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/jianxing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/simplejianxing"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="@string/huafanweijian"
+        android:textSize="15sp" />
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+     android:background="@drawable/bk_denglu"
+       android:layout_marginTop="41dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/denglu"
+        android:text="@string/denglu"
+        android:textSize="18sp" 
+        android:id="@+id/text_shouye_denglu"
+      android:drawablePadding="10dp" />
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/bk_denglu"
+         android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_shouye_zhuce"
+        android:drawableLeft="@drawable/zhuce"
+        android:drawablePadding="10dp"
+        android:text="@string/zhuce"
+        android:textSize="18sp" 
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/yonghuxieyi"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="@string/qita"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/image_xinlang"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_toLeftOf="@+id/image_qq"
+            android:src="@drawable/xinlang"
+            android:layout_marginRight="21dp" />
+
+        <ImageView
+            android:id="@+id/image_qq"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/qq" />
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="21dp"
+            android:layout_toRightOf="@id/image_qq"
+            android:src="@drawable/weixin" />
+    </RelativeLayout>
+
+</LinearLayout>

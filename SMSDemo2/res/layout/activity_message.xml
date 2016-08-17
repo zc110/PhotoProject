@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/card_name"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/backkey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/shezhi_message"
+            android:textColor="@color/card_layout"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/message_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/card_layout"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/shezhi_messageOne"
+            android:textSize="15sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:text="ToggleButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/card_layout"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/shezhi_messageOne"
+            android:textSize="15sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="ToggleButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/card_layout"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/shezhi_messagespeck"
+            android:textSize="15sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="ToggleButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/card_layout"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/shezhi_messagezhendong"
+            android:textSize="15sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton4"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="ToggleButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/card_layout"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/card_layout"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/shezhi_messagefriend"
+                android:textSize="15sp" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton5"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="ToggleButton" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/shezhi_messagefriendone"
+            android:textColor="@color/card_text"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
